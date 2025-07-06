@@ -18,5 +18,10 @@ function factorial(n) {
   }
   return n * factorial(n - 1);
 }
+// Reverse a string
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
 
 
