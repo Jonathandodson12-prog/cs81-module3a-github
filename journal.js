@@ -11,4 +11,12 @@ function isPalindrome(word) {
   let cleaned = word.toLowerCase().replace(/[^a-z0-9]/g, '');
   return cleaned === cleaned.split('').reverse().join('');
 }
+// Calculate the factorial of a number
+function factorial(n) {
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
 
